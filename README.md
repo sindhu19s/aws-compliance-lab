@@ -17,3 +17,13 @@ how to govern the data that feeds such a system.
 ## Dataset	
 German Credit Data — UCI Machine Learning Repository	
 
+
+<img width="1425" height="690" alt="Screenshot 2026-04-08 at 12 01 10 PM" src="https://github.com/user-attachments/assets/5679e474-2a5d-4a1b-a0a9-e11aa4933a9d" />
+
+<img width="1417" height="634" alt="Screenshot 2026-04-08 at 12 10 25 PM" src="https://github.com/user-attachments/assets/26ae28ff-ce47-47ac-be51-0faf6fe019a6" />
+
+
+
+
+
+
