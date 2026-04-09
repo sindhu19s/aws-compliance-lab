@@ -22,6 +22,10 @@ German Credit Data — UCI Machine Learning Repository
 
 <img width="1417" height="634" alt="Screenshot 2026-04-08 at 12 10 25 PM" src="https://github.com/user-attachments/assets/26ae28ff-ce47-47ac-be51-0faf6fe019a6" />
 
+## Step 1 : Create S3 bucket
+## Step 3 : Create IAM user - Auditor
+## Step 3 : Create add Read policy (AmazonS3ReadOnlyAccess) to this IAM user. 
+
 
 
 
