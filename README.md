@@ -17,16 +17,16 @@ how to govern the data that feeds such a system.
 ## Dataset	
 German Credit Data — UCI Machine Learning Repository	
 
-
+## Step 1 : Create S3 bucket and add Loan file to it
 <img width="1425" height="690" alt="Screenshot 2026-04-08 at 12 01 10 PM" src="https://github.com/user-attachments/assets/5679e474-2a5d-4a1b-a0a9-e11aa4933a9d" />
 
 <img width="1417" height="634" alt="Screenshot 2026-04-08 at 12 10 25 PM" src="https://github.com/user-attachments/assets/26ae28ff-ce47-47ac-be51-0faf6fe019a6" />
 
-## Step 1 : Create S3 bucket
-## Step 3 : Create IAM user - Auditor
+## Step 3 : Create IAM user - Auditor-User
+
 ## Step 3 : Create add Read policy (AmazonS3ReadOnlyAccess) to this IAM user. 
 
-# More Details!!!
+## More Details!!!
 
 1. The "Auditor-User" (Identity Governance)
    - What I did: I created a person (Auditor-User) and gave them Zero Permissions first, then a Read-Only policy.
