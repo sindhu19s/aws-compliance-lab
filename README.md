@@ -31,7 +31,7 @@ German Credit Data — UCI Machine Learning Repository
 1. The "Auditor-User" (Identity Governance)
    - What I did: I created a person (Auditor-User) and gave them Zero Permissions first, then a Read-Only policy.
    - Why it's Governance: This is the principle of Least Privilege. Governance isn't just about "locking doors"; it’s about having a paper trail of who is allowed       to do what. By making an "Auditor" who can see but not touch, you are following a legal requirement for most financial companies.
-2.The "Access Analyzer" (The Guard at the Door)
+2. The "Access Analyzer" (The Guard at the Door)
 	- What I did: I turned on a tool that scanned my account to see if any "outsiders" could get in.
     - Why it's Governance: This is Automated Compliance. Instead of me manually checking every folder (bucket) every day, the Analyzer does it for me. It 			"Governs" the perimeter. If I accidentally make a folder public, the Analyzer would flag it as a "Finding."
     - The Goal: To prove to a regulator (like the EU or the SEC) that I have a system in place to prevent data leaks.
