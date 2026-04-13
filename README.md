@@ -42,3 +42,13 @@ German Credit Data — UCI Machine Learning Repository
    	- What I did: I started a tool that actually "reads" the inside of your CSV files.
    	- Why it's Governance: This is Data Classification.Security is locking the safe.Governance is knowing exactly how many $100 bills and how many $1 bills are          inside the safe.
    	- Macie tells me: "Hey, this file contains Social Security Numbers (PII)." Once I know that, I am legally required to handle that file differently.
+---
+
+## The Problems I Faced (The "Reality Check")
+
+* **The "Invisible" Data Problem:** Even though I uploaded PII (Social Security Numbers), Macie’s "smart" scanners initially ignored them. This happened because Macie uses high-confidence AI that often ignores "fake" or "sample" data to avoid annoying real security teams with false alarms.
+* **The UI "Memory Loss":** Every time I reloaded or moved steps, the AWS console reset your filters. In Macie, findings don't just "stay" on the screen; they hide behind filters like "Current," "Archived," or "Job ID," making it look like my work vanished.
+* **The Configuration Loop:** AWS has a "Security First" approach that feels like a "Settings Trap." I wanted to see the data, but AWS required a **KMS Key**, an **IAM Role**, and an **S3 Results Bucket** just to show me one line of text.
+* **The "Unsafe" Regex Battle:** When I tried to force Macie to find *everything* using a broad command (`.*`), AWS blocked it for "safety" reasons, forcing me to write more specific "safe" code.
+
+---
