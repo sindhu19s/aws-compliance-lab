@@ -26,6 +26,9 @@ German Credit Data — UCI Machine Learning Repository
 
 ## Step 3 : Create add Read policy (AmazonS3ReadOnlyAccess) to this IAM user. 
 
+## Final Result shows : 1 Severity 
+<img width="1470" height="956" alt="Screenshot 2026-04-11 at 6 46 40 PM" src="https://github.com/user-attachments/assets/4154df62-bdc9-4873-8a8f-b99f832c0d2e" />
+
 ## More Details!!!
 
 1. The "Auditor-User" (Identity Governance)
@@ -39,7 +42,3 @@ German Credit Data — UCI Machine Learning Repository
    	- What I did: I started a tool that actually "reads" the inside of your CSV files.
    	- Why it's Governance: This is Data Classification.Security is locking the safe.Governance is knowing exactly how many $100 bills and how many $1 bills are          inside the safe.
    	- Macie tells me: "Hey, this file contains Social Security Numbers (PII)." Once I know that, I am legally required to handle that file differently.
-
-
-
-
